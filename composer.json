@@ -1,0 +1,29 @@
+{
+	 
+    "description": "this a part of my portfolio h3h3h3",
+    "name": "n45ht/ctf",
+    "type": "project",
+	"homepage": "https://n45ht.web.id",
+	"support": {
+		"facebook": "https://www.facebook.com/n45ht",
+		"github": "https://github.com/carmudi56"
+	},
+    "authors": [
+        {
+            "name": "Carmudi",
+            "email": "Carmudi56@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+			"php": ">=5.3.7"
+	 },
+    "autoload": {
+        "classmap":[
+            "vendor/src"
+        ],
+        "psr-4": {
+            "\\": "vendor/src/"
+        }
+    }
+}

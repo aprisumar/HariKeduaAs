@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="bahasa_indonesia">Bahasa : Indonesia</string>
+    <string name="lupa_password_silahkan_klik">Lupa password ? <b>Silahkan Klik</b> </string>
+</resources>

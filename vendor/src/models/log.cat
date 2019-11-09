@@ -1,0 +1,6 @@
+PDOException: SQLSTATE[HY000] [2002] No such file or directory in /storage/sdcard1/web/vendor/src/config/config.php:39
+Stack trace:
+#0 /storage/sdcard1/web/vendor/src/config/config.php(39): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /storage/sdcard1/web/vendor/src/models/aksi_register.php(22): config\database->__construct()
+#2 /storage/sdcard1/web/vendor/src/models/aksi_register.php(57): models\insert->__construct()
+#3 {main}
